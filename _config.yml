@@ -1,3 +1,2 @@
-theme: jekyll-theme-cayman
-text: Welcome to Abhishek's webpage!
-description: Setting up my personal website!
+	name: Abhishek Amol Mishra
+	markdown: kramdown
