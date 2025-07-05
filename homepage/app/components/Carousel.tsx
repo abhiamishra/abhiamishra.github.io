@@ -17,8 +17,8 @@ const Carousel = ({data}: CarouselProps) => {
 
     // extract the initial size
     useEffect(() => {
-        let elem = carouselRef.current as unknown as HTMLDivElement
-        let { width, height } = elem.getBoundingClientRect()
+        const elem = carouselRef.current as unknown as HTMLDivElement
+        const { width, height } = elem.getBoundingClientRect()
         if (carouselRef.current) {
             setCarouselSize({
                 width,

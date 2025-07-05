@@ -2,12 +2,12 @@ import React from 'react'
 import './Switch.css'
 
 type SwitchProps = {
-  toggle: any,
+  toggle: undefined | string ,
   onClick: () => void;
   onColor: string;
 };
 
-const Switch = ({ toggle, onClick, onColor}: SwitchProps) => {
+const Switch = ({ toggle, onClick, }: SwitchProps) => {
   return (
     <>
         <button 

@@ -15,11 +15,6 @@ const InfiniteShelf = ({objects}: InfiniteShelfProps) => {
   const [direction, setDirection] = useState<"left" | "right" | null>(null);
   const scrollSpeed = 10000;
 
-  const [centerX, setCenterX] = useState(0);
-  const [positions, setPositions] = useState<number[]>([]);
-  const [selectedId, setSelectedId] = useState<number | null>(null);
-
-
   useEffect(() => {
     let frame: number;
 

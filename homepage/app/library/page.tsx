@@ -1,16 +1,9 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Vinyl from '../components/Vinyl'
-import Book from '../components/Book'
 import InfiniteShelf, { InfiniteShelfType } from '../components/InfiniteShelf'
 
 const page = () => {
-    const vinylList: InfiniteShelfType[] = [
-        { id: 1, src: "/beesgees.png"},
-        { id: 2, src: "/cmiygl.jpg"},
-        { id: 3, src: "/flowerboy.webp"},
-    ];
-
     const bookList: InfiniteShelfType[] = [
         { id: 1, src: "/stranger.jpg"},
         { id: 2, src: "/gdsmthing.jpg"},

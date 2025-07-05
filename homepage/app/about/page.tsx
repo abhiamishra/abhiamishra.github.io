@@ -1,9 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout';
 import Link from 'next/link';
-import SpotifyEmbed from '../components/SpotifyEmbed';
-import Carousel from '../components/Carousel';
-import Vinyl from '../components/Vinyl';
 
 const page = () => {
     return (

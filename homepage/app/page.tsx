@@ -1,18 +1,7 @@
-import ProductCard from "./components/ProductCard";
-import Sidebar from "./components/Sidebar";
 import Layout from "./components/Layout";
-import Switch from "./components/Switch";
-import ThemeSwitcher from "./components/ThemeSwitcher";
-import Carousel from "./components/Carousel";
 import Link from "next/link";
-import GitHubStats from "./components/GithubStats";
 import SpotifyEmbed from "./components/SpotifyEmbed";
 
-const imageData = [
-  { imageLink: 'https://picsum.photos/seed/random101/500/500' },
-  { imageLink: 'https://picsum.photos/seed/random102/500/500' },
-  { imageLink: 'https://picsum.photos/seed/random103/500/500' },
-]
 export default function Home() {
   return (
       <Layout>
