@@ -7,7 +7,7 @@ interface VinylProps {
 
 export default function Vinyl({ vinylName }: VinylProps) {
   return (
-    <div className="group w-50 h-50 relative rounded-full overflow-hidden shadow-lg">
+    <div className="group w-40 h-40 relative rounded-full overflow-hidden shadow-lg">
       <Image
         src={`/${vinylName}`}  // or jpg/webp — make sure it's circular!
         alt="Vinyl"

@@ -26,11 +26,11 @@ export default function Home() {
       </p>
       <br></br>
       <p className="mt-4">
-        currently, i am working as a software developer for an airlines company working on platform/dev work for machine learning.
+        currently, i am working as a software developer for an airlines company working on artificial intelligence.
       </p>
       <br></br>
       <p>
-        along with that, i'm doing my masters of cs at <Link href="https://omscs.gatech.edu/" className="text-yellow-600 underline"> georgia tech </Link> with a specialization of ml.
+        along with that, i'm doing my masters of cs at <Link href="https://omscs.gatech.edu/" className="text-yellow-600 underline">georgia tech</Link> with a specialization of ml.
       </p>
       <br></br>
   
@@ -42,7 +42,7 @@ export default function Home() {
         </p>
         <br></br>
         <p>
-          on my own time, i'm really interested in studying watermarking of ai generated content.
+          on my own time, i've been really interested in researching how watermarking can apply to ai-generated content.
         </p>
       </main>
       <br></br>

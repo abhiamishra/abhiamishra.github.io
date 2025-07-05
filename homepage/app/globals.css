@@ -26,6 +26,50 @@ html.dark body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Base properties (same as your current body rules) */
+.themable,
+.inverse-themable {
+  min-height: 100%;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* “Normal” theme: light bg / dark text */
+.themable {
+  background-color: #ffffff;
+  color: #171717;
+}
+
+/* Inverse theme: dark bg / light text */
+.inverse-themable {
+  background-color: #171717;
+  color: #ffffff;
+}
+
+/* Dark-mode overrides when <html class="dark"> is present */
+html.dark .themable {
+  background-color: #171717;
+  color: #ffffff;
+}
+
+html.dark .inverse-themable {
+  background-color: #ffffff;
+  color: #171717;
+}
+
+/* 1) Base “light” text color var, and fallback */
+.flip-text {
+  --light-text: currentColor;
+  --dark-text:  currentColor;
+  color: var(--light-text);
+}
+
+/* 2) When <html class="dark"> is present, use the dark var */
+html.dark .flip-text {
+  color: var(--dark-text);
+}
+
+
 /* 
 :root {
   --background: #ffffff;

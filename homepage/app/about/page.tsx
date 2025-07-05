@@ -16,7 +16,7 @@ const page = () => {
         <h1 className="text-3xl font-bold">ok, so who are you?</h1>
         <p className="mt-4">
           i was born in delhi, india 🇮🇳 and have been living around the world. 
-          currently, i reside in the us 🇺🇸 and working as a software developer. 
+          currently, i reside in the us 🇺🇸 and am working as a software developer. 
         </p>
         <br></br>
         <p className="mt-4">
@@ -50,12 +50,6 @@ const page = () => {
           you can always have me down to talk about philosphy, analyzing a movie, or looking behind the lines of a song.
         </p>
         <br></br>
-        <h3 className="text-2xl font-bold">current favorite vinyls</h3>
-        <main className="flex items-center justify-center flex-wrap gap-10">
-          <Vinyl vinylName="beesgees.png"></Vinyl>
-          <Vinyl vinylName="cmiygl.jpg"></Vinyl>
-          <Vinyl vinylName="flowerboy.webp"></Vinyl>
-        </main>
       </Layout>
     );
 }
