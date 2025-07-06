@@ -6,13 +6,17 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "preview": "npx serve out"
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "touch ./out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "next": "15.3.1",
     "next-themes": "^0.4.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "touch-cli": "^0.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

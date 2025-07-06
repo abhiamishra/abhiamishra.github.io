@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
-  trailingSlash: true,       // generate folder/index.html
+  basePath: '/',
   devIndicators: false,
   images: {
     unoptimized: true,
@@ -13,6 +13,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-} satisfies NextConfig;
+};
 
 export default nextConfig;
