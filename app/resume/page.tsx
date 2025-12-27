@@ -8,12 +8,20 @@ const page = () => {
             <h1 className="text-5xl font-bold mb-6">
                 resume
             </h1>
-            <h2 className="text-2xl mb-6">
-                pdf resume: in the works 🔧
-            </h2>
+
+            <div className="py-2" />
+
+            <div>
+                <a className="text-3xl" href="/AbhishekAMishraResume.pdf" target="_blank" rel="noopener noreferrer">
+                    click here for pdf resume
+                </a>
+            </div>
+            
+            <div className="py-6" />
+
             <>
                 <AccordionItem title="education">
-                    <div className="px-6 flex flex-wrap justify-center space-x-6">
+                    <div className="px-15 flex flex-wrap justify-center space-x-6">
 
                         <div className="inverse-themable max-w-sm rounded-xl shadow-lg p-6 space-y-4 mb-3">
                             <h3 className="text-xl font-semibold">Georgia Tech</h3>

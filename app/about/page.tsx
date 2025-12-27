@@ -38,8 +38,11 @@ const page = () => {
           i am a big, big fan of nature 🌿 and love, love national parks :)
         </p>
         <br></br>
-        <p className="mt-4">
+        <p className="mt-4" style={{ textDecoration: 'line-through' }}>
           i'm currently training for a marathon 🏃🏽 and will be using my blog to document that process.
+        </p>
+        <p className="mt-4">
+          i've completed a marathon 🏃🏽 and will be using my blog to document how it went.
         </p>
         <br></br>
         <p className="mt-4">

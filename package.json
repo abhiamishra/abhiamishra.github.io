@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://abhiamishra.github.io",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -12,15 +12,26 @@
     "deploy": "touch ./out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
+    "@mdx-js/react": "^3.1.1",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@types/mdx": "^2.0.13",
+    "gray-matter": "^4.0.3",
     "next": "15.3.1",
     "next-themes": "^0.4.6",
+    "pdfjs-dist": "^3.4.120",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-pdf": "^10.2.0",
+    "remark-frontmatter": "^5.0.0",
     "touch-cli": "^0.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@mdx-js/loader": "^3.1.1",
+    "@next/mdx": "^15.5.9",
     "@tailwindcss/postcss": "^4",
+    "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

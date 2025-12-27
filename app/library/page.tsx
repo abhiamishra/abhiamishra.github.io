@@ -5,11 +5,14 @@ import InfiniteShelf, { InfiniteShelfType } from '../components/InfiniteShelf'
 
 const page = () => {
     const bookList: InfiniteShelfType[] = [
-        { id: 1, src: "/stranger.jpg"},
+        { id: 1, src: "/stranger.png"},
         { id: 2, src: "/gdsmthing.jpg"},
         { id: 3, src: "/mansearch.jpg"},
         { id: 4, src: "/alchemist.jpeg"},
         { id: 5, src: "/mos.jpg"},
+        { id: 6, src: "/eragon.png"},
+        { id: 7, src: "/hailmary.png"},
+        { id: 8, src: "/hp1.png"},
     ];
 
     return (
@@ -33,6 +36,8 @@ const page = () => {
                         <Vinyl vinylName="beesgees.png"></Vinyl>
                         <Vinyl vinylName="cmiygl.jpg"></Vinyl>
                         <Vinyl vinylName="flowerboy.webp"></Vinyl>
+                        <Vinyl vinylName="madvillainy.png"></Vinyl>
+                        <Vinyl vinylName="trench.png"></Vinyl>
                     </div>
                 </div>
             </main>
