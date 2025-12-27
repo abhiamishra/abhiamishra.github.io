@@ -22,8 +22,13 @@ const Switch = ({ toggle, onClick, }: SwitchProps) => {
             }`}
           />
           <span
+            className={`absolute inset-0 rounded-full blur-xl transition-opacity duration-500 ${
+              toggle === "light" ? 'opacity-100 bg-amber-500' : 'opacity-100 bg-gray-100'
+            }`}
+          />
+          <span
             className={`absolute inset-0 rounded-full blur-lg transition-opacity duration-500 ${
-              toggle === "light" ? 'opacity-800 bg-yellow-400' : 'opacity-800 bg-gray-700'
+              toggle === "light" ? 'opacity-80 bg-yellow-300' : 'opacity-80 bg-gray-600'
             }`}
           />
         </button>
