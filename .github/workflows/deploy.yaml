@@ -78,7 +78,7 @@ jobs:
 
       # This helps us see exactly where the 'out' folder is
       - name: List files (Debug)
-         run: ls -d */ | grep out || ls -F
+        run: ls -d */ | grep out || ls -F
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
