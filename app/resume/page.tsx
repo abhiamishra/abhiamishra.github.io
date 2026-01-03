@@ -3,7 +3,6 @@ import Layout from '../components/Layout'
 import AccordionItem from '../components/AccordionItem'
 import Link from 'next/link';
 import { Github } from 'lucide-react';
-import { BriefcaseBusiness } from 'lucide-react';
 
 const page = () => {
     return (
