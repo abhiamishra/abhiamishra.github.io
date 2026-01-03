@@ -1,6 +1,9 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import AccordionItem from '../components/AccordionItem'
+import Link from 'next/link';
+import { Github } from 'lucide-react';
+import { BriefcaseBusiness } from 'lucide-react';
 
 const page = () => {
     return (
@@ -16,9 +19,23 @@ const page = () => {
                     click here for pdf resume
                 </a>
             </div>
+            <br/>
+            <div>
+                <Link 
+                    href="https://github.com/abhiamishra" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center p-2 rounded-full transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
+                    aria-label="Visit my GitHub profile"
+                    >
+                    <Github 
+                        size={32} 
+                        className="text-black dark:text-white" 
+                    />
+                </Link>
+            </div>
+            <br/>
             
-            <div className="py-6" />
-
             <>
                 <AccordionItem title="education">
                     <div className="px-15 flex flex-wrap justify-center space-x-6">
