@@ -12,13 +12,19 @@ const Sidebar = () => {
     {/* <aside className="w-64 h-screen bg-gray-1000 p-3"> */}
         <div className="space-y-5">
             <ul className="mt-2 space-y-1 list-none">
-            {['/home', '/about', '/resume', '/blog', '/library'].map((item) => (
+            {[
+              { label: 'home', href: '/' },
+              { label: 'about', href: '/about' },
+              { label: 'resume', href: '/resume' },
+              { label: 'blog', href: '/aamblog' },
+              { label: 'library', href: '/library' },
+            ].map((item) => (
                 <li
-                key={item}
+                key={item.label}
                 className="text-3xl text-gray-1000 px-2 py-1 rounded-md cursor-pointer transition-transform duration-200 ease-out hover:scale-125 hover:-translate-y-1 hover"
                 >
-                  <Link href={item !== "/home" ? item : "/"}>
-                    {item.slice(1)}
+                  <Link href={item.href}>
+                    {item.label}
                   </Link>
                 </li>
             ))}
