@@ -17,6 +17,7 @@ const Sidebar = () => {
               { label: 'about', href: '/about' },
               { label: 'resume', href: '/resume' },
               { label: 'blog', href: '/aamblog' },
+              { label: 'research', href: '/research' },
               { label: 'library', href: '/library' },
             ].map((item) => (
                 <li
